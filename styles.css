@@ -28,9 +28,6 @@ body{
 }
 .perfume-img img{
     max-width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
