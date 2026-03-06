@@ -18,7 +18,12 @@
 <body>
   <main class="container">
     <div class="perfume-img">
-      <img src="/images/image-product-mobile.jpg" alt="Image of perfume bottle" >
+      <picture>
+        <source media="(max-width: 767px)" srcset="/images/image-product-mobile.jpg">
+        <source media="(min-width: 768px)" srcset="/images/image-product-desktop.jpg">
+        
+        <img src="/images/image-product-mobile.jpg" alt="Image of perfume bottle" >
+      </picture>
     </div>
     <div class="content">
       <p class="topic">P E R F U M E</p>
